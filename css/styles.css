@@ -1,7 +1,6 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  --master-font-weight: 400;
   --accent-color: #2196f3;
 }
 
@@ -162,6 +161,10 @@ body {
 .portfolio-button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.work-header:hover,
+.portfolio-text:hover {
+  color: var(--accent-color);
 }
 
 .work-header {
