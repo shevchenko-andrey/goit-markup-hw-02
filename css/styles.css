@@ -1,6 +1,7 @@
 :root {
-  --main-font: ;
-  --secondary-font: ;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --master-font-weight: 400;
   --accent-color: #2196f3;
 }
 
@@ -12,4 +13,68 @@
 }
 
 body {
+  font-family: var(--main-font);
+  font-weight: 400;
 }
+/* =====================HEADER=======================*/
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: var(--master-font-weight);
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-edd-color {
+  color: #2196f3;
+}
+.menu,
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+.contact-link {
+  color: #757575;
+}
+.menu-link {
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* =====================HERO========================= */
+.hero {
+  background-color: #2f303a;
+}
+.hero-headline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+/* ============Features OF OUR COMPANY===============*/ ;
