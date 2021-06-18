@@ -1,0 +1,15 @@
+:root {
+  --main-font: ;
+  --secondary-font: ;
+  --accent-color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+}
