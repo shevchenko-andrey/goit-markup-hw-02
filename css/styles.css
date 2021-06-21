@@ -18,7 +18,7 @@ body {
 /* =====================HEADER=======================*/
 .logo-link {
   font-family: var(--secondary-font);
-  font-weight: var(--master-font-weight);
+  font-weight: 400;
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
@@ -123,19 +123,23 @@ body {
 .footer {
   background-color: #2f303a;
 }
-
-.location {
-  font-size: 14px;
-  line-height: 24px;
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
-.address-company {
+.address-company,
+.location {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  font-style: normal;
+  line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
 }
 
 .location:hover,
