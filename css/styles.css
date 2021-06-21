@@ -132,7 +132,6 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.address-company,
 .location {
   font-weight: 400;
   font-size: 14px;
@@ -140,6 +139,14 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.address-company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .location:hover,
